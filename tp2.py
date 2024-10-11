@@ -1,5 +1,9 @@
 class fizzBuzz:
 
+    def __init__(self, nom) :
+        self.nom = nom
+    
+
     def affiche():
         result = ""
         for i in range(1, 100):
